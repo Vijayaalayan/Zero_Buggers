@@ -3,9 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title>Zero Buggers</title>
   <!--google fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> -->
   
   <!--CSS stylesheet-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -18,7 +20,7 @@
 </head>
 
 <body>
-  <section id="title">
+  <section class="coloured-section" id="title">
     <div class="container-fluid">
     <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -30,13 +32,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ml-auto ">
               <li class="nav-item"> 
-                  <a class="nav-link" href="">About </a>
+                  <a class="nav-link" href="#cta">Download </a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Products </a>
+                  <a class="nav-link" href="#pricing">Pricing </a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="">Contact </a>
+                  <a class="nav-link" href="#footer">Contact </a>
               </li>
           </ul>
           </div>
@@ -45,64 +47,66 @@
     <!-- Title -->
       <div class="row">
         <div class="col-lg-6 ">
-          <h1>Welcome, meet our aspiring team Zero-Buggers</h1>
+          <h1 class="big-heading">Welcome, meet our aspiring team Zero Buggers</h1>
           <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6 ">
-          <img class="title-image"src="images/zero_buggers (1).png" alt="iphone-mockup">
+          <img class="title-image"src="images/zero_buggers.png" alt="iphone-mockup">
         </div>
       </div>
     </div>
-    
+    <br><br><br><br>
 
   </section>
 
 
   <!-- Features -->
 
-  <section id="features">
-    <div class="row">
-      <div class="col-lg-4">
-        <i class="icon far fa-check-circle fa-3x"></i><br>
-        <h3 class="style-features">Trustable</h3>
-        <p class="p-style-features">Trustable team with complete loyalty</p>
-      </div>
-      <div class="col-lg-4">
-        <i class="icon fas fa-bullseye fa-3x"></i><br>
-        <h3 class="style-features">Gauranteed</h3>
-        <p class="p-style-features">Gauranteed to be delivered within time and with full time support</p>
-      </div>
-      <div class="col-lg-4">
-        <i class="icon fas fa-heart fa-3x center"></i><br>
-        <h3 class="style-features">With Love</h3>
-        <p class="p-style-features">We are passionate in what we do and empathise so well</p>
-      </div>      
+  <section class="white-section"id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="icon far fa-check-circle fa-3x"></i><br>
+          <h3 class="style-features">Trustable</h3>
+          <p class="p-style-features">Trustable team with complete loyalty</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="icon fas fa-bullseye fa-3x"></i><br>
+          <h3 class="style-features">Gauranteed</h3>
+          <p class="p-style-features">Gauranteed to be delivered within time and with full time support</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="icon fas fa-heart fa-3x center"></i><br>
+          <h3 class="style-features">With Love</h3>
+          <p class="p-style-features">We are passionate in what we do and empathise so well</p>
+        </div>  
+      </div>    
     </div>
   </section>
 
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="coloured-section" id="testimonials">
     
     <div id="carouselExampleControls" class="carousel slide" data-ride="false" data-interval="3000" pause="hover">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>Very much obliged with the services offered by the team.</h2>  
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Very much obliged with the services offered by the team.</h2>  
           <img class="img-testimonials"src="images/vignesh.jpeg" alt="dog-profile">
           <em>Vignesh, Erode</em>
         </div>
-        <div class="carousel-item" >
-          <h2>Very much obliged with the services offered by the team.</h2>  
+        <div class="carousel-item container-fluid" >
+          <h2 class="testimonial-text">Very much obliged with the services offered by the team.</h2>  
+          <img class="img-testimonials"src="images/raji.jpg" alt="dog-profile">
+          <em>Rajarajeshwari, Chennai</em>
+        </div>
+        <!-- <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Very much obliged with the services offered by the team.</h2>  
           <img class="img-testimonials"src="images/vignesh.jpeg" alt="dog-profile">
           <em>Vignesh, Erode</em>
-        </div>
-        <div class="carousel-item">
-          <h2>Very much obliged with the services offered by the team.</h2>  
-          <img class="img-testimonials"src="images/vignesh.jpeg" alt="dog-profile">
-          <em>Vignesh, Erode</em>
-        </div>
+        </div> -->
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -127,7 +131,7 @@
   
   <!-- Press -->
 
-  <section id="press">
+  <section class="coloured-section" id="press">
     
     <img class="press-images" src="images/techcrunch.png" alt="tc-logo">
     <img class="press-images" src="images/tnw.png" alt="tnw-logo">
@@ -139,55 +143,81 @@
 
   <!-- Pricing -->
 
-  <section id="pricing">
+  <section class="white-section" id="pricing">
+  <h2 class="section-heading">A plan for the Zero Buggers' Fam</h2>
+  <p>Simple plans for your Tech Growth at Affordable Prices</p>
+  <div class="row">
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Bronze</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">Free</h2>
+          <p>5 Videos Per Day</p>
+          <p>10 Messages Per Day</p>
+          <p>Unlimited App Usage</p>
+          <button type="button" class="btn btn-outline-dark btn-lg btn-block">Sign Up</button>
+        </div>
+      </div>
+    </div>
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <div class="pricing-column col-lg-4 col-md-6">
+      <div class="card">
+        <div class="card-header">
+          <h3>Silver</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">$49 / mo</h2>
+          <p>Unlimited Videos</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+          <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>    
+        </div>
+      </div>
+    </div>
 
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+    <div class="pricing-column col-lg-4 col-md-12">
+      <div class="card">
+        <div class="card-header">
+          <h3>Gold</h3>
+        </div>
+        <div class="card-body">
+          <h2 class="price-text">$99 / mo</h2>
+          <p>Pirority Listing</p>
+          <p>Unlimited Videos</p>
+          <p>Unlimited Messages</p>
+          <p>Unlimited App Usage</p>
+          <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
-
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
-
+  <section class="coloured-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">The Perfect place for your Tech skill growth</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer class="white-section" id="footer">
+    <a href="https://www.facebook.com/vijay.aalayan" target="blank"><i class="social-icon fab fa-facebook-f"></i></a>
+    <a href="https://twitter.com/ZBuggers" target="blank"><i class="social-icon fab fa-twitter"></i></a>
+    <a href="https://instagram.com/zero_buggers?igshid=150b46dol7iww" target="blank"><i class="social-icon fab fa-instagram"></i></a>
+    <a href="mailto: vijayaalayan1234@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
 
-    <p>© Copyright 2018 TinDog</p>
+    <h5>© Copyright 2020 Zero Buggers</h5>
 
   </footer>
 
